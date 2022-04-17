@@ -14,7 +14,7 @@ const TabBarButton = props => {
   let icon;
   switch (route.name) {
     case SCREEN_NAMES.HOME_SCREEN:
-      size = accessibilityState.selected ? 32 : 30;
+      size = accessibilityState.selected ? 36 : 32;
       icon = <HomeIcon color={color} size={size} />;
       break;
     case SCREEN_NAMES.CALENDAR_SCREEN:

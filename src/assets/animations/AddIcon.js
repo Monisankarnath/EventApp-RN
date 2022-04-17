@@ -2,6 +2,7 @@ import LottieView from 'lottie-react-native';
 import {StyleSheet} from 'react-native';
 import {VStack} from 'native-base';
 import React, {useRef, useEffect} from 'react';
+import LinearGradient from 'react-native-linear-gradient';
 
 export const AddIcon = ({focused}) => {
   const animation = useRef(null);
@@ -21,15 +22,11 @@ export const AddIcon = ({focused}) => {
     }
   }, [focused]);
   return (
-    <VStack
-      h={60}
-      w={60}
-      borderRadius="30"
-      position="absolute"
-      bottom="5"
-      bg="background.100"
-      alignItems="center"
-      justifyContent="center">
+    <LinearGradient
+      start={{x: 1, y: 0}}
+      end={{x: 1, y: 1}}
+      style={styles.buttonContainer}
+      colors={['#D0D3FF', '#985EE1']}>
       <LottieView
         style={styles.lottieContainer}
         ref={animation}
@@ -37,12 +34,21 @@ export const AddIcon = ({focused}) => {
         autoPlay={false}
         source={require('./lottie/add.json')}
       />
-    </VStack>
+    </LinearGradient>
   );
 };
 const styles = StyleSheet.create({
+  buttonContainer: {
+    height: 70,
+    width: 70,
+    borderRadius: 35,
+    position: 'absolute',
+    bottom: 20,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
   lottieContainer: {
-    height: 58,
-    width: 58,
+    height: 68,
+    width: 68,
   },
 });
