@@ -32,6 +32,16 @@
 		39625A1A97CB4B76B2640D48 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 488A56BF154348C385C33B2D /* Octicons.ttf */; };
 		F70B795613804683BE00FA6D /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D0DCD4CBA7343958B3A5A01 /* SimpleLineIcons.ttf */; };
 		40C655B9927C48F097CF2CA5 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6024BFA6FA0B4D8FA74D9341 /* Zocial.ttf */; };
+		031BA4DBE5714E55861FE606 /* CrimsonPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 859A88C3B5C24D4AA503E43B /* CrimsonPro-Bold.ttf */; };
+		82176539FB3D4C6A81D35F3C /* CrimsonPro-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65C39478DADF4078A7C6DE78 /* CrimsonPro-BoldItalic.ttf */; };
+		91841730C7664ECEA44D588B /* CrimsonPro-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72170B67672D44BA8A4BB0EE /* CrimsonPro-ExtraBold.ttf */; };
+		B1AE1776A89A457DAE9EE056 /* CrimsonPro-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5AF6B64577CE4204B2894C7E /* CrimsonPro-ExtraBoldItalic.ttf */; };
+		58C64441E4B74DD5A595BB67 /* CrimsonPro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B1199BBDBE7474CB901A750 /* CrimsonPro-Medium.ttf */; };
+		27F11D13B58A40458E530AE0 /* CrimsonPro-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D432CC085F9A447BB1D29E76 /* CrimsonPro-MediumItalic.ttf */; };
+		E17BD7BDEDD647ADBF450BDB /* CrimsonPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96601BD798E141FBBA0F259E /* CrimsonPro-Regular.ttf */; };
+		237454F67752487297500738 /* CrimsonPro-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 913413FA6379447B8584FBA4 /* CrimsonPro-SemiBold.ttf */; };
+		3F5D5D536ED3411B9D34213E /* CrimsonPro-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28BB7B5626544CCBB4E2D6FA /* CrimsonPro-SemiBoldItalic.ttf */; };
+		F1E4FA972F5E47FCACD5E9E7 /* MontThin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36E1DE8DA12A4EE589634ED4 /* MontThin.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +86,16 @@
 		488A56BF154348C385C33B2D /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		0D0DCD4CBA7343958B3A5A01 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		6024BFA6FA0B4D8FA74D9341 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		859A88C3B5C24D4AA503E43B /* CrimsonPro-Bold.ttf */ = {isa = PBXFileReference; name = "CrimsonPro-Bold.ttf"; path = "../src/assets/fonts/CrimsonPro-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		65C39478DADF4078A7C6DE78 /* CrimsonPro-BoldItalic.ttf */ = {isa = PBXFileReference; name = "CrimsonPro-BoldItalic.ttf"; path = "../src/assets/fonts/CrimsonPro-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		72170B67672D44BA8A4BB0EE /* CrimsonPro-ExtraBold.ttf */ = {isa = PBXFileReference; name = "CrimsonPro-ExtraBold.ttf"; path = "../src/assets/fonts/CrimsonPro-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5AF6B64577CE4204B2894C7E /* CrimsonPro-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "CrimsonPro-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/CrimsonPro-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9B1199BBDBE7474CB901A750 /* CrimsonPro-Medium.ttf */ = {isa = PBXFileReference; name = "CrimsonPro-Medium.ttf"; path = "../src/assets/fonts/CrimsonPro-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D432CC085F9A447BB1D29E76 /* CrimsonPro-MediumItalic.ttf */ = {isa = PBXFileReference; name = "CrimsonPro-MediumItalic.ttf"; path = "../src/assets/fonts/CrimsonPro-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		96601BD798E141FBBA0F259E /* CrimsonPro-Regular.ttf */ = {isa = PBXFileReference; name = "CrimsonPro-Regular.ttf"; path = "../src/assets/fonts/CrimsonPro-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		913413FA6379447B8584FBA4 /* CrimsonPro-SemiBold.ttf */ = {isa = PBXFileReference; name = "CrimsonPro-SemiBold.ttf"; path = "../src/assets/fonts/CrimsonPro-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		28BB7B5626544CCBB4E2D6FA /* CrimsonPro-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "CrimsonPro-SemiBoldItalic.ttf"; path = "../src/assets/fonts/CrimsonPro-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		36E1DE8DA12A4EE589634ED4 /* MontThin.ttf */ = {isa = PBXFileReference; name = "MontThin.ttf"; path = "../src/assets/fonts/MontThin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +208,16 @@
 				488A56BF154348C385C33B2D /* Octicons.ttf */,
 				0D0DCD4CBA7343958B3A5A01 /* SimpleLineIcons.ttf */,
 				6024BFA6FA0B4D8FA74D9341 /* Zocial.ttf */,
+				859A88C3B5C24D4AA503E43B /* CrimsonPro-Bold.ttf */,
+				65C39478DADF4078A7C6DE78 /* CrimsonPro-BoldItalic.ttf */,
+				72170B67672D44BA8A4BB0EE /* CrimsonPro-ExtraBold.ttf */,
+				5AF6B64577CE4204B2894C7E /* CrimsonPro-ExtraBoldItalic.ttf */,
+				9B1199BBDBE7474CB901A750 /* CrimsonPro-Medium.ttf */,
+				D432CC085F9A447BB1D29E76 /* CrimsonPro-MediumItalic.ttf */,
+				96601BD798E141FBBA0F259E /* CrimsonPro-Regular.ttf */,
+				913413FA6379447B8584FBA4 /* CrimsonPro-SemiBold.ttf */,
+				28BB7B5626544CCBB4E2D6FA /* CrimsonPro-SemiBoldItalic.ttf */,
+				36E1DE8DA12A4EE589634ED4 /* MontThin.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -303,6 +333,16 @@
 				39625A1A97CB4B76B2640D48 /* Octicons.ttf in Resources */,
 				F70B795613804683BE00FA6D /* SimpleLineIcons.ttf in Resources */,
 				40C655B9927C48F097CF2CA5 /* Zocial.ttf in Resources */,
+				031BA4DBE5714E55861FE606 /* CrimsonPro-Bold.ttf in Resources */,
+				82176539FB3D4C6A81D35F3C /* CrimsonPro-BoldItalic.ttf in Resources */,
+				91841730C7664ECEA44D588B /* CrimsonPro-ExtraBold.ttf in Resources */,
+				B1AE1776A89A457DAE9EE056 /* CrimsonPro-ExtraBoldItalic.ttf in Resources */,
+				58C64441E4B74DD5A595BB67 /* CrimsonPro-Medium.ttf in Resources */,
+				27F11D13B58A40458E530AE0 /* CrimsonPro-MediumItalic.ttf in Resources */,
+				E17BD7BDEDD647ADBF450BDB /* CrimsonPro-Regular.ttf in Resources */,
+				237454F67752487297500738 /* CrimsonPro-SemiBold.ttf in Resources */,
+				3F5D5D536ED3411B9D34213E /* CrimsonPro-SemiBoldItalic.ttf in Resources */,
+				F1E4FA972F5E47FCACD5E9E7 /* MontThin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

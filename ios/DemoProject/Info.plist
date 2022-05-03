@@ -73,6 +73,16 @@
 		<string>Octicons.ttf</string>
 		<string>SimpleLineIcons.ttf</string>
 		<string>Zocial.ttf</string>
+		<string>CrimsonPro-Bold.ttf</string>
+		<string>CrimsonPro-BoldItalic.ttf</string>
+		<string>CrimsonPro-ExtraBold.ttf</string>
+		<string>CrimsonPro-ExtraBoldItalic.ttf</string>
+		<string>CrimsonPro-Medium.ttf</string>
+		<string>CrimsonPro-MediumItalic.ttf</string>
+		<string>CrimsonPro-Regular.ttf</string>
+		<string>CrimsonPro-SemiBold.ttf</string>
+		<string>CrimsonPro-SemiBoldItalic.ttf</string>
+		<string>MontThin.ttf</string>
 	</array>
 </dict>
 </plist>

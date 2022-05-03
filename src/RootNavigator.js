@@ -1,16 +1,18 @@
 import {StyleSheet} from 'react-native';
-import React from 'react';
-import {SafeAreaView} from 'react-native-safe-area-context';
+import React, {useEffect} from 'react';
 import {StatusBar, useColorMode} from 'native-base';
+import {SafeAreaView} from 'react-native-safe-area-context';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {SCREEN_NAMES} from './constants/screenNames';
 import BottomTabNav from './routes/BottomTabNav';
+import {SettingsScreen} from './screens';
 
 const Stack = createNativeStackNavigator();
 const RootNavigator = () => {
   const {colorMode} = useColorMode();
-  const bgColor = colorMode === 'dark' ? '#003F5E' : '#E3F2F9';
+  const bgColor = '#EFF1F5';
+
   return (
     <SafeAreaView style={[styles.container, {backgroundColor: bgColor}]}>
       <StatusBar
@@ -26,6 +28,10 @@ const RootNavigator = () => {
             animation: 'fade_from_bottom',
           }}>
           <Stack.Screen name={SCREEN_NAMES.ROOT_TAB} component={BottomTabNav} />
+          <Stack.Screen
+            name={SCREEN_NAMES.SETTINGS_SCREEN}
+            component={SettingsScreen}
+          />
         </Stack.Navigator>
       </NavigationContainer>
     </SafeAreaView>

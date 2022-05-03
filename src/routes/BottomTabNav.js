@@ -27,5 +27,4 @@ const BottomTabNav = () => {
     </Tab.Navigator>
   );
 };
-
 export default BottomTabNav;
