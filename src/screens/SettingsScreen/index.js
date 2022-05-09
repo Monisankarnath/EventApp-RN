@@ -4,7 +4,8 @@ import {VStack} from 'native-base';
 import {Header, ProfileCard, SettingsCard} from '../../components/';
 import LinearGradient from 'react-native-linear-gradient';
 
-const SettingsScreen = () => {
+const SettingsScreen = ({route}) => {
+  const {params} = route;
   return (
     <LinearGradient
       start={{x: 0, y: 0}}
@@ -14,7 +15,7 @@ const SettingsScreen = () => {
       <VStack>
         <Header />
         <ProfileCard />
-        <SettingsCard />
+        <SettingsCard fetchWeatherData={params} />
       </VStack>
     </LinearGradient>
   );

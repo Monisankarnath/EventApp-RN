@@ -7,10 +7,10 @@ import {useColorMode} from 'native-base';
 import {useNavigation} from '@react-navigation/native';
 import {SCREEN_NAMES} from '../../constants/screenNames';
 
-export const HomeHeader = () => {
+export const HomeHeader = ({fetchWeatherData}) => {
   const navigation = useNavigation();
   const handleSettingButton = () => {
-    navigation.navigate(SCREEN_NAMES.SETTINGS_SCREEN);
+    navigation.navigate(SCREEN_NAMES.SETTINGS_SCREEN, fetchWeatherData);
   };
   const {colorMode} = useColorMode();
   return (

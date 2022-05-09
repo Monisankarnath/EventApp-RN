@@ -9,18 +9,26 @@ import {
   CheckIcon,
 } from 'native-base';
 
-export const SettingsCard = () => {
+export const SettingsCard = ({fetchWeatherData}) => {
   const [text, setText] = useState('');
   const handleChange = value => {
     setText(value);
   };
   const handleChangeLocation = () => {
-    console.log(text); //change location logic
+    if (text.length > 0) {
+      const args = {name: text};
+      fetchWeatherData(args);
+    } else {
+      fetchWeatherData();
+    }
+    setText('');
     Keyboard.dismiss();
   };
+
   LogBox.ignoreLogs([
     'Non-serializable values were found in the navigation state',
   ]);
+
   return (
     <VStack py="6" px="6" mt={4} borderRadius="20" bg="black.600">
       <Text color="black.400" fontFamily="regular" fontWeight="300">
@@ -41,7 +49,7 @@ export const SettingsCard = () => {
               <IconButton
                 bg="green.300"
                 icon={<CheckIcon size="xs" />}
-                disabled={text.length === 0}
+                // disabled={text.length === 0}
                 onPress={handleChangeLocation}
               />
             }
